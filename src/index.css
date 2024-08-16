@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -26,8 +26,8 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  /* place-items: center; */
-  /* min-width: 320px; */
+  place-items: center;
+  min-width: 320px;
   min-height: 100vh;
 }
 
@@ -70,11 +70,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-
-.background {
-  background-image: url('../assets/bg1.jpg');
-  /* background-position: center; */
-  background-size: 390px 100%;
-  background-repeat: no-repeat;
-}
+} */

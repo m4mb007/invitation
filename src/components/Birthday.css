@@ -1,6 +1,8 @@
 .card {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    right: 0;
+    left: 0;
 }
 
 .card-header {
@@ -28,7 +30,7 @@
 
 .background {
     background-image: url('../assets/bg1.jpg');
-    /* background-position: center; */
-    background-size: 390px 90%;
+    background-position: center;
+    background-size: 420px 100%;
     background-repeat: no-repeat;
 }

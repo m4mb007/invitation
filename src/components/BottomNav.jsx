@@ -13,7 +13,7 @@ const BottomNav = () => {
     <div className="bottom-nav">
       <div className="nav-item" onClick={handleMapClick}>
         <FaMapMarkerAlt className="icon" />
-        <span className="nav-label">Map</span>
+        <span className="nav-label">Direction</span>
       </div>
       <ContactModal />
       <EventScheduleModal />
