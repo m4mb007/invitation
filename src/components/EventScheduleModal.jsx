@@ -31,7 +31,7 @@ const EventScheduleModal = () => {
               &times;
             </span>
             <div className="tentative-inner">
-              <h2>Program </h2>
+              <h2>Program</h2>
 
               <div className="item-tentative">
                 <h3>3:00 PM - Arrival of Guests</h3>
