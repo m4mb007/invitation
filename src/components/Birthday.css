@@ -34,3 +34,16 @@
     background-size: 420px 100%;
     background-repeat: no-repeat;
 }
+
+.tentative-inner {
+    text-align: center;
+}
+
+.item-tentative {
+    padding: 10px;
+    /* line-height: 0.5; */
+}
+
+.item-tentative h3 {
+    color: bisque;
+}
