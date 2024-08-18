@@ -1,6 +1,7 @@
 import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
+import image from "/"
 
 export function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
@@ -9,13 +10,13 @@ export function EmblaCarousel() {
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
         <div className="embla__slide">
-          <img src="/assets/001.jpg" alt="Slide 1" height="400px" />
+          <img src="/001.jpg" alt="Slide 1" height="400px" />
         </div>
         <div className="embla__slide">
-          <img src="/assets/002.jpg" alt="Slide 2" height="400px" />
+          <img src="/002.jpg" alt="Slide 2" height="400px" />
         </div>
         <div className="embla__slide">
-          <img src="/assets/003.jpg" alt="Slide 3" height="400px" />
+          <img src="/003.jpg" alt="Slide 3" height="400px" />
         </div>
       </div>
     </div>
