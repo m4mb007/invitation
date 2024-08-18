@@ -1,3 +1,17 @@
-body{
+body {
   margin: 0;
+}
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  /* height: 200px; */
+}
+
+.embla__slide {
+  flex: 0 0 70%;
+  min-width: 0;
 }

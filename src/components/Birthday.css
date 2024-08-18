@@ -24,8 +24,8 @@
 
 .card-body {
     margin-top: -60px;
-    background-color: bisque;
-    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    height: 150vh;
 }
 
 .background {
@@ -34,6 +34,20 @@
     background-size: 420px 100%;
     background-repeat: no-repeat;
 }
+
+.background_sec02 {
+    /* background-image: url('../assets/bg02.png'); */
+    background-position: 0 400px;
+    background-size: 420px;
+    background-repeat: no-repeat;
+    color: rgb(255, 251, 19);
+    font-size: 24px;
+    text-align: center;
+
+}
+
+
+
 
 .tentative-inner {
     text-align: center;
